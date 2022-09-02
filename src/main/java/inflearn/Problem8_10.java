@@ -2,6 +2,10 @@ package inflearn;
 
 import java.util.Scanner;
 
+
+/*
+* 미로탐색(DFS)
+* */
 public class Problem8_10 {
 	static int[] dx = { -1, 0, 1, 0 };
 	static int[] dy = { 0, 1, 0, -1 };

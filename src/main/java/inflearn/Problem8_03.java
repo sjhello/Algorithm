@@ -2,6 +2,9 @@ package inflearn;
 
 import java.util.Scanner;
 
+/*
+* 최대점수 구하기(DFS)
+* */
 public class Problem8_03 {
 
     static int m;

@@ -7,6 +7,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+/*
+* 송아지 찾기 1(BFS : 상태트리탐색)
+* */
 public class Problem7_08 {
 
 	int result = 0;

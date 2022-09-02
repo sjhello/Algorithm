@@ -2,6 +2,10 @@ package inflearn;
 
 import java.util.Scanner;
 
+
+/*
+* 합이 같은 부분집합(DFS: 아마존 인터뷰)
+* */
 public class Problem8_01 {
     static String answer = "NO";
     static int n;       // 입력값의 갯수

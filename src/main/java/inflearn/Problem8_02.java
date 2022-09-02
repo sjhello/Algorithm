@@ -2,6 +2,10 @@ package inflearn;
 
 import java.util.Scanner;
 
+
+/*
+* 바둑이 승차(DFS)
+* */
 public class Problem8_02 {
     static int answer = 0;
     static int c;

@@ -4,6 +4,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
+
+/*
+* 동전교환(DFS)
+* */
 public class Problem8_05 {
 
     static int n;
