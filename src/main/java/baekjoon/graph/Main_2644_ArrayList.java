@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.graph;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

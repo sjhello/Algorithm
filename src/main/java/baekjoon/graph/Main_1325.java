@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class Main_1325 {
 	static int n;
 	static int m;
-	// static int[][] map;
 	static ArrayList<ArrayList<Integer>> map;
 	static int[] visited;
 	static int[] answer;
@@ -25,14 +24,6 @@ public class Main_1325 {
 
 		while (!queue.isEmpty()) {
 			int current = queue.poll();
-
-			// for (int i = 1; i <= n; i++) {
-			// 	if (map[i][current] == 1 && visited[i] == 0) {
-			// 		visited[i] = 1;
-			// 		count++;
-			// 		queue.add(i);
-			// 	}
-			// }
 
 			for (int next : map.get(current)) {
 				if (visited[next] == 0) {
@@ -48,7 +39,6 @@ public class Main_1325 {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
 		m = sc.nextInt();
-		// map = new int[n + 1][n + 1];
 		map = new ArrayList<>();
 		answer = new int[n + 1];
 
@@ -59,7 +49,6 @@ public class Main_1325 {
 		for (int i = 0; i < m; i++) {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
-			// map[a][b] = 1;
 			map.get(b).add(a);
 		}
 
