@@ -1,8 +1,12 @@
-package baekjoon;
+package baekjoon.BFS;
 
 import java.io.*;
 import java.util.*;
 
+/*
+* 거리 측정
+* 미로 탐색
+* */
 public class Main_2178 {
     static int n;
     static int m;
