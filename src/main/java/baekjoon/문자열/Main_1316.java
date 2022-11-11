@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/*
+* 그룹 단어
+* */
 public class Main_1316 {
 
 	static int result;
