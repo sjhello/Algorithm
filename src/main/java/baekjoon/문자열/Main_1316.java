@@ -26,7 +26,7 @@ public class Main_1316 {
 
 	public static boolean isGroupSt() throws IOException {
 		boolean flag = true;
-		boolean[] strCheckArray = new boolean[26];		// 소문자 알바벳 갯수만큼 배열 생성
+		boolean[] strCheckArray = new boolean[26];		// 소문자 알파벳 갯수만큼 배열 생성
 		String str = br.readLine();
 
 		int ch = 0;		// 비교대상 문자 0으로 초기화 해도 되는 이유는 입력이 알파벳 소문자이기 때문이다
